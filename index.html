@@ -1,58 +1,166 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Project: Recipe book</title>
         <meta charset="utf-8">
-        <title>Project: Travel webpage</title>
         <style>
-            h1{
-                color:Yellow;
-                background-color:blue;
-            }
-            h2{
-                color:red;
-            }
+        h1{
+            color:Blue;
+        }
+        h2{
+            color:yellow;
+            background-color:black;
+        }
+        #content{
+            background-color:blue;
+            color:white;
+        }
+        .table{
+            background-color:pink;
+        }
+        .step{
+            color:rgb(48, 89, 32);
             
-            }
-            #paris-location{
-                background-color:green;
-            }
-            .views-head{
-                color:rgb(255, 143, 23);
-            }
-            .description{
-                color:yellow;
-                background-color:rgb(92, 33, 255);
-            }
-            .food-para{
-                background-color:yellow;
-            }
+        }
+        .description{
+            color:brown;
+            background-color:yellow;
+        }
         </style>
     </head>
-    
     <body>
-        <h1>Travel to Paris</h1>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" alt="paris"width="400">
-        <h2>Location</h2>
-        <p id="paris-location">Paris is located in northern central France, in a north-bending arc of the river Seine whose crest includes two islands, the Île Saint-Louis and the larger Île de la Cité, which form the oldest part of the city.</p>
-        <h2>Views</h2>
-        <ul>
-            <li>Eiffel Tower</li> 
-            <li>The Louvre</li>
-            <li>The Arc de Triomphe</li>
-        </ul>
-        <h3 class="views-head">Eiffel Tower</h3>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tour_eiffel_at_sunrise_from_the_trocadero.jpg" alt="eiffel tower" width="300">
-        <p class="description">Eiffel Tower is a construction of Gustave Eiffel for the 1889 Universal Exposition</p>
-        <h3 class="views-head">The Louvre</h3>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Louvre_Courtyard%2C_Looking_West.jpg/805px-Louvre_Courtyard%2C_Looking_West.jpg" alt="louvre front" width="400" >
-        <p class="description">The Louvre is one of the world's <strong>largest</strong> museums and a historic monument</p>
-        <h3 class="views-head">The Arc de Triomphe</h3>
-        <p class="description"> The Arc de Triomphe is a monument at the center of the Place de l'Étoile, commemorating the <em>victories</em> of France and honoring those who died in battle</p>
-        <h2>Food</h2>
-        <ol class="food-para">
-            <li>Croissants</li> 
-            <li>Escargots</li>
-            <li>Macarons</li>
+       
+        <h1>Jenny's Recipe Book</h1>
+        
+        <h2 id="content">Contents:</h2>
+        
+        <ol>
+            <li ><a href="#Recipe-1">Recipe #1</a></li>
+            <li><a href="#Recipe-2">Recipe #2</a></li>
+            <li><a href="#Recipe-3">Recipe #3</a></li>
         </ol>
+        
+        <h2 id="Recipe-1">Recipe #1</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/2016-09-19_Liangmaqiao_Japanese_Restaurant_grilled_chicken_with_spicy_sauce_anagoria.jpg/1280px-2016-09-19_Liangmaqiao_Japanese_Restaurant_grilled_chicken_with_spicy_sauce_anagoria.jpg" alt="chicken" width="300">
+        <ul class="table">
+            <li>Time: 17:00</li>
+            <li>Serves: Jackson</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>black pepper</td>
+                    <td>½ teaspoon</td>
+                </tr>
+                <tr>
+                    <td>cumin</td>
+                    <td>2 teaspoon</td>
+                </tr>
+                <tr>
+                    <td>cloves</td>
+                    <td>¼ teaspoon</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p class="step"><strong>Step 1:</strong> Combine ingredients.
+</p>
+        <p class="description">Combine coriander, cumin, cardamom, chile powder, pepper, and cloves in a dry pan over low heat. Stir until fragrant. Remove from heat, add oil and water, and stir until combined. Set spice paste aside.</p>
+         <p class="step"><strong>Step 2:</strong> Rub salt over wing.
+</p>
+        <p class="description">Rub salt over wings in a shallow dish, then rub spice paste all over. Cover and refrigerate, 4 hours to overnight.</p>
+        <p class="step"><strong>Step 3:</strong> Grill.
+</p>
+        <p class="description">Preheat an outdoor grill for high heat and lightly oil the grate. Add wings and cook, turning halfway, until well browned, 15 to 20 minutes. An instant-read thermometer inserted near the bone should read 165 degrees F (74 degrees C).</p>
+        
+    
+        <h2 id="Recipe-2">Recipe #2</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Grilled_Elk_rib_chops-02.jpg/640px-Grilled_Elk_rib_chops-02.jpg" alt="pork" width="300">
+        <ul class="table">
+            <li>Time: 17:20</li>
+            <li>Serves:Mike</li>
+        </ul>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>chile pepper</td>
+                    <td>1 tablespoon</td>
+                </tr>
+                <tr>
+                    <td>onion</td>
+                    <td>2 tablespoon</td>
+                </tr>
+                <tr>
+                    <td>tomato paste</td>
+                    <td>1 cup</td>
+                </tr>
+            </tbody>
+        </table>
+         <p class="step"><strong>Step 1:</strong> Preheat.
+</p>
+        <p class="description">Preheat oven to 300 degree F (150 degrees C).</p>
+        <p class="step"><strong>Step 2:</strong> Cut.
+</p>
+        <p class="description">Cut each full rack of ribs in half, so that you have 4 half racks. Sprinkle salt and pepper (more pepper than salt), and 1 tablespoon chile pepper over meat. Wrap each half rack in aluminum foil. Bake for 2 1/2 hours.</p>
+        <p class="step"><strong>Step 3:</strong> Oven.
+</p>
+        <p class="description">Remove the ribs from the oven, and let stand 10 minutes. Remove the racks from the foil, and place on the grill. Grill the ribs for 3 to 4 minutes on each side. Brush sauce on the ribs while they're grilling, just before you serve them (adding it too early will burn it).</p>
+        
+        
+        <h2 id="Recipe-3">Recipe #3</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/VegCorn.jpg" alt="corn" width="300">
+        <ul class="table">
+            <li>Time: 17:3-0</li>
+            <li>Serves: Ben</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>lime juice</td>
+                    <td>1 teaspoon</td>
+                </tr>
+                <tr>
+                    <td>pepper</td>
+                    <td>1 pinch</td>
+                </tr>
+                <tr>
+                    <td>cliantro</td>
+                    <td>¼ cup</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p class="step"><strong>Step 1:</strong> Mix.
+</p>
+        <p class="description">Cream butter in a bowl until smooth; mix in cilantro, lime juice, and cayenne pepper until thoroughly combined. Cover and refrigerate 1 hour to blend flavors.</p>
+         <p class="step"><strong>Step 2:</strong> Peel.
+</p>
+        <p class="description">Peel husks back from ears of corn starting at the top, leaving the husks attached at the bottom of the ears. Remove all the corn silk and close husks over the ears again. Cover corn ears with cold water in a large bowl until husks are thoroughly soaked, about 20 minutes.</p>
+        <p class="step"><strong>Step 3:</strong> Grill.
+</p>
+        <p class="description">Place the corn in husks onto the hot grate and grill covered until husks are charred and the corn kernels are tender, 20 to 25 minutes, turning often. Strip off husks and serve corn with cilantro lime butter.</p>
+    
+        <p><em>Source: <a href="https://www.allrecipes.com/recipe/272390/indian-masala-chicken-wings/">Some recipes websites</a></em></p>
     </body>
+    
 </html>
